@@ -1,0 +1,23 @@
+the data base will contain the next tables :
+
+#user
+- username
+- Role
+- password
+
+#Customer
+- name
+- phonenumbr
+- email
+- address
+
+#Product
+- name
+- qt
+- priceUnit
+- 
+
+#invoice
+- numberinvoice 
+- totalprice
+- clientname

@@ -1,4 +1,21 @@
-# App
+# invoiceit_V1 of 
+
+# introduction : 
+
+This application is an inventory Managment & invoice maker Combined together 
+
+# The tech stack : 
+
+i will be using for the front-end (Angular/tailwind)
+in the back-end (typescript with express(api) & Node for the Database Postgress )
+
+# Features : 
+
+add & edit & delet (client , usres , inovices , product )
+and more features i will list them later 
+
+
+# Runing the App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
