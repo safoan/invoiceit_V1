@@ -1,0 +1,35 @@
+# PRD: InvoiceIt
+
+InvoiceIt is a light and fast inventory managment system and invoice maker
+It allows users to create and add product invoice & customer and other 
+
+# Experience
+
+## Dashboard 
+
+the dashboard Shows : 
+
+Total Invoice Created  
+Total of Sales 
+Total Cutomer
+out of stock product 
+recent invoices 
+
+## Product 
+
+the Product window will allow users to set the name ,qt ,price of the product 
+& show the list of existing once in the inventory  
+
+
+## Customer 
+
+the Customer window will allow users to set the name ,phone number & other detail abot the customer 
+& show the list of existing one in the System    
+
+## Invoice
+
+Invoices can be created for existing Customer with the Existing product list & edited with abilty to custom the Output 
+
+# Users
+
+there will be two types of users (Admin , Manager ) with diffrent access to the app functionality 
