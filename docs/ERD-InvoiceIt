@@ -31,13 +31,14 @@ We'll need at least the following entities to implement the service:
 |--------|------|
 | ID | STRING/UUID |
 | Title | STRING |
-| QT | STRING |
+| QT | NUMBER |
 | PricUnit | STRING |
 
 **Customer**:
 | Column | Type |
 |--------|------|
 | CustomerId | STRING/UUID |
+| customername | STRING |
 | Phonenumbr | STRING |
 | Email | STRING |
 | Adress | STRING |
@@ -45,7 +46,6 @@ We'll need at least the following entities to implement the service:
 **invoice**:
 | Column | Type |
 |---------|------|
-| ID | STRING |
 | InvoiceId | STRING/UUID |
 | TotalPrice | STRING |
 | ClientName | STRING |

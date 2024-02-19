@@ -1,13 +1,11 @@
-import { Pool } from 'pg';
+import {Pool} from  'pg' ; 
 
-const pool = new Pool({
-    
-  // Placeholders for sensitive information
-  user: ,
-  password: D,
-  database: ,
-  host: ,
-  port: 5432,
+const pool = new Pool ({
+    user: "postgres",
+    password : "0000",
+    database : "invoiceit" ,
+    host : "localhost",
+    port : 5432,
 });
 
 export default pool;
