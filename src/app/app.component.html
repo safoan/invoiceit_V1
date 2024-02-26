@@ -1,3 +1,11 @@
-<h1>test </h1>
-
-<router-outlet></router-outlet>
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <a mat-button routerLink="/">Dashboard</a>
+      <a mat-button routerLink="/user">User</a>
+      <a mat-button routerLink="/product">Product</a>
+      <a mat-button routerLink="/customer">Customer</a>
+      <a mat-button routerLink="/invoice">Invoice</a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  
+  <router-outlet></router-outlet>
