@@ -13,20 +13,24 @@ import { ProductComponent } from './product/product.component';
 import { UserComponent } from './user/user.component';
 import { InvoiceComponent } from './invoice/invoice.component';
 import { CustomerComponent } from './customer/customer.component';
+import {NavigationComponent} from './navigation/navigation.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 
 const routes: Routes = [
   { path: 'user', component: UserComponent },
   { path: 'product', component: ProductComponent }, // Ensure you import ProductComponent
   { path: 'customer', component: CustomerComponent },
-  { path: 'invoice', component: InvoiceComponent }
+  { path: 'invoice', component: InvoiceComponent },
+  { path : 'dashboard' , component : DashboardComponent},
 ];
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [MatToolbarModule , RouterModule ,MatSidenavModule ],
+  imports: [MatToolbarModule , RouterModule ,MatSidenavModule ,NavigationComponent   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'app';
